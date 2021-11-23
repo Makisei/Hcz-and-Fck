@@ -15,7 +15,7 @@ namespace canteensystem.Service
             this.context = context;
         }
 
-        public List<Manager> GetManagerss()
+        public List<Manager> GetManagers()
         {
             var query = context.Managers;
             return query.ToList();
@@ -27,7 +27,7 @@ namespace canteensystem.Service
             context.SaveChanges();
         }
 
-        public void DeleteManager(int managerid)
+        public void DeleteManager(string managerid)
         {
             var manager = context.Managers.FirstOrDefault(p => p.ID == managerid);
             if (manager == null) return;
@@ -35,7 +35,7 @@ namespace canteensystem.Service
             context.SaveChanges();
         }
 
-        public Manager FindManagerById(int managerid)
+        public Manager FindManagerById(string managerid)
         {
             var manager = context.Managers.FirstOrDefault(p => p.ID == managerid);
             return manager;

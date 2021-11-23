@@ -7,10 +7,10 @@ namespace canteensystem.Models
 {
     public class Food
     {
-        public string foodId;
-        public string foodName;
-        public int foodPrice;
-        public string describe;
+        public string foodId { get; set; }
+        public string foodName { get; set; }
+        public int foodPrice { get; set; }
+        public string describe { get; set; }
 
         public Food(string name, int price, string describe)
         {

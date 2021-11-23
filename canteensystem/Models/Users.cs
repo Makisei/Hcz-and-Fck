@@ -7,10 +7,10 @@ namespace canteensystem.Models
 {
     public class Users
     {
-        public string userName;
-        protected string password;
-        public string ID;
-        public List<Food> shoppingCar;
+        public string userName { get; set; }
+        public string password { get; set; }
+        public string ID { get; set; }
+        public List<Food> shoppingCar { get; set; }
 
         public Users(string name, string password)
         {

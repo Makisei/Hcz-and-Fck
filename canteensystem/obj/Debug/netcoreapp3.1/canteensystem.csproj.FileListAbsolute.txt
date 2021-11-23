@@ -184,4 +184,8 @@ C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstand
 C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Nancy.dll
+C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\visual studio\canteensystem\obj\Debug\netcoreapp3.1\canteensystem.MvcApplicationPartsAssemblyInfo.cache
+C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\visual studio\canteensystem\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

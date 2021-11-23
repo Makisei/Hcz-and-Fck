@@ -7,10 +7,10 @@ namespace canteensystem.Models
 {
     public class Store
     {
-        public string storeId;
-        public string storeName;
-        public int waitingQueue;
-        public List<Food> menu;
+        public string storeId { get; set; }
+        public string storeName { get; set; }
+        public int waitingQueue { get; set; }
+        public List<Food> menu { get; set; }
 
         public Store(string name)
         {

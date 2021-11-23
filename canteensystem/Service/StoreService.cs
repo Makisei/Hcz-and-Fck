@@ -42,19 +42,20 @@ namespace canteensystem.Service
             return list;
         }
 
-        public bool modifyMenu(Food food, List<Food> menu) 
+        public void modifyMenu(Food food, List<Food> menu) 
         {
             var substitute = from f in menu where (f.foodName == food.foodName) select f;
             if (substitute == null)
             {
-                return false;
+                menu.Add(food);
+                return;
             }
             foreach (Food f in substitute)
             {
                 menu.Remove(f);
             }
             menu.Add(food);
-            return true;
+            return;
         }
     }
 }

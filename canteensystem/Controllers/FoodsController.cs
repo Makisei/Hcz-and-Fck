@@ -12,7 +12,7 @@ namespace canteensystem.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class FoodsController : Controller
+    public class FoodsController : ControllerBase
     {
         FoodService foodService;
         public FoodsController(CanteenContext context)

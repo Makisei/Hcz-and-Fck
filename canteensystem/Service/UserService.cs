@@ -13,6 +13,8 @@ namespace canteensystem.Service
         public UserService(CanteenContext context)
         {
             this.context = context;
+            Users user = new Users("1", "1");
+            context.Users.Add(user);
         }
 
         public List<Users> GetUsers()
